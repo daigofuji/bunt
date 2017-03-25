@@ -1666,10 +1666,6 @@ input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   color: #cacaca; }
 
-input::-moz-placeholder,
-textarea::-moz-placeholder {
-  color: #cacaca; }
-
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   color: #cacaca; }
@@ -4082,7 +4078,7 @@ table.hover tbody tr:nth-of-type(even):hover {
 /***************** end padding and margin settings *************/
 /* custom */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 200; }
+  font-family: 'Days One', sans-serif; }
 
 .font-light {
   font-weight: 200; }
@@ -4103,3 +4099,18 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 0 10px rgba(138, 138, 138, 0.3); }
   .title-bar .title-bar-title {
     font-weight: 800; }
+
+.bunt-brand {
+  background: url(/img/ellsbury-bunting.jpg) center center/cover no-repeat scroll content-box content-box #ccc;
+  /* color */
+  min-height: 40vh;
+  padding: 3rem 1rem; }
+  .bunt-brand h1 {
+    font-size: 5rem;
+    color: white;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+    max-width: 1200px;
+    margin: 0 auto; }
+
+.ct-label.ct-horizontal {
+  color: #000; }

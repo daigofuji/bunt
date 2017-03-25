@@ -1,13 +1,13 @@
-name : Foundation5/github pages/Jykill starter
-brand : My Project
-description : This is the description of my project
+name : Baseball Hack Day 2017 submission
+brand : Baseball Hack Day 2017 submission
+description : Everything you wanted to know about MLB sacrifice hits, also known as BUNT
 keyword : 
-url : http://daigofuji.github.io/jekyll-foundation-6-starter/
+url : http://daigofuji.github.io/bunt/
 email : daigo@daigofujiwara.com
 twitter : DaigoFuji
 github : DaigoFuji
 author : Daigo Fujiwara
-year : 2016
+year : 2017
 markdown : kramdown
 exclude :
   - node_modules
