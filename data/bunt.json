@@ -1,4 +1,4 @@
-[
+{ "data": [
   [2016,1,"Atlanta Braves","NL",64],
   [2016,2,"Cincinnati Reds","NL",58],
   [2016,3,"Colorado Rockies","NL",54],
@@ -299,4 +299,4 @@
   [2006,28,"Boston Red Sox","AL",22],
   [2006,29,"Texas Rangers","AL",18],
   [2006,30,"Toronto Blue Jays","AL",16]
-]
+]}
