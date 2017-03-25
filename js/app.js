@@ -1,7 +1,7 @@
 $(document).ready(function() 
   {
     $('#datatable').DataTable( {
-      "ajax": "/data/bunt.json",
+      "ajax": "../data/bunt.json",
       paging: false
     } );
 
