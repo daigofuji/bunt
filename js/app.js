@@ -1,8 +1,9 @@
 $(document).ready(function() 
   {
     $('#datatable').DataTable( {
-      "ajax": "../data/bunt.json",
-      paging: false
+      "ajax": "data/bunt.json",
+      paging: false,
+      "order": [[ 4, 'desc' ]]
     } );
 
 
@@ -12,12 +13,12 @@ $(document).ready(function()
       [1651, 1540, 1526, 1635, 1544, 1667, 1479, 1383, 1343, 1200, 1025]
     ]
     }, {
-    fullWidth: true,
-    chartPadding: {
-      right: 40
-    },
-    low: 0,
-    showArea: true
+      fullWidth: true,
+      chartPadding: {
+        right: 40
+      },
+      low: 0,
+      showArea: true
     });
 
   }
